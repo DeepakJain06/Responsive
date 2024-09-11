@@ -1,0 +1,186 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta carset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="width=devic-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">   
+    <main id="main">
+    <title>TRUBUTE PAGE</title>
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <h1 id="title">Mr.Atal Bihari Vajpai</h1>
+        <p>Bharat Ratna recipient Atal Bihari Vajpayee was a visionary Indian politician</p>
+      </header>
+      <div id="img-div">
+        <img src="https://www.bjp.org/files/bjp-presidents-images/bg-slide.png" alt="Image" id="image">
+      <figcaption id="img-caption">This is the persionality which plays important roles in india for republic indian </figcaption>  
+      </div>
+      <h2 id="tribute-info">Here is the timeline of Shree  Atal Bihari Vajpai ji</h2>
+      
+      
+      <ul>  <li><strong>1924</strong>  - Born: December 25, 1924, in Gwalior, British India.
+</li>
+        <li><strong>1942</strong> - Quit India Movement: Joined the Indian freedom struggle as part of the Quit India Movement against British rule.
+</li>
+        <li><strong>1951</strong> - Formation of Bharatiya Jana Sangh: Became a founding member of the Bharatiya Jana Sangh (BJS), the predecessor to the Bharatiya Janata Party (BJP).
+</li>
+        <li><strong>1957</strong> - First Elected to Parliament: Elected as a Member of Parliament (MP) for the first time from Balrampur, Uttar Pradesh.
+</li>
+        <li><strong>1975</strong> - Emergency Period: Strongly opposed Indira Gandhi's Emergency, leading to his arrest and imprisonment.
+</li>
+        <li><strong>1977</strong> - Foreign Minister: Served as the Minister of External Affairs in the Janata Party government, earning international recognition for his diplomatic skills.
+</li>
+        <li><strong>1980</strong> - Formation of BJP: Co-founded the Bharatiya Janata Party (BJP) after the dissolution of the Janata Party, becoming its first president.
+</li>
+        <li><strong>1996</strong> - First Term as Prime Minister: Sworn in as the Prime Minister of India for the first time, although his government lasted only 13 days.
+</li>
+        <li><strong>1998</strong> - Pokhran-II Nuclear Tests: Successfully conducted nuclear tests in Pokhran, establishing India as a nuclear power.</li>
+        <li><strong>1999</strong> - Kargil War: Led India during the Kargil conflict with Pakistan, displaying strong leadership and earning widespread respect.</li>
+        <li><strong>2000</strong> - Golden Quadrilateral Project: Launched the ambitious Golden Quadrilateral highway project, improving infrastructure across India.
+</li>
+        <li><strong>2004</strong> - Retirement from Politics: Stepped down as Prime Minister after the BJP's defeat in the general elections and gradually withdrew from active politics.
+2015</li>
+        <li><strong>2015</strong> - Bharat Ratna Award: Conferred with India's highest civilian honor, the Bharat Ratna, in recognition of his contributions to the nation.</li>
+        <li><strong>2018</strong> - August 16, 2018, in New Delhi, India. His passing marked the end of an era in Indian politics.</li>
+</ul>
+</div>
+
+<blockquote cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
+<p>The regional parties have emerged as a strong force, and they, too, deserve a place in national politics.</p>
+<cite>-- Indian Prime Minister Atal Bihari Vajpai</cite>
+</blockquote>
+<h3>If you have time, you should read more about this incredible human being on his <a href="https://en-m-wikipedia-org.translate.goog/wiki/Atal_Bihari_Vajpayee?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc" target="_blank" id="tribute-link">Wikipedia Page</a></h3>
+      
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+li{
+  margin:16px 0;}
+
+
+ul{
+  line-height:1.6;
+}
+
+ul{
+  display:list-item;
+  unicode-bidi:isolate;
+  text-align:-webkit-match-parent;
+}
+
+h2{
+  display:block;
+  font-size:1.17em;
+  margin-block-start:1em;
+  font-weight:bold;
+  unicode:isolate;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-block-start:0px;
+  margin-block-end:0px;
+  unicode-bidi:isolate;
+  
+
+}
+ul{
+  max-width:550px;
+  margin:0 auto 50px auto;
+  text-align:left;
+  line-height:1.6;
+  
+
+}
+
+#tribute-info{
+  margin:50px 0;
+  text-align:center;
+
+
+}
+P{
+  dispaly:block;
+  margin-block-start:1em;
+  margin-block-start:0px;
+  margin-block-end:1em;
+  margin-block-end:0px;
+  unicode-bidi:isolate;
+
+
+}
+blockquote{
+  font-style:italic;
+  text-align:left;
+  max-width:545px;
+  margin:0 auto 50px auto;
+  
+
+}
+h1{
+  display:block;
+  margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+div
+{
+  display:block;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-block-end:1em;
+  margin-inline-start:40px;
+  margin-inline-end:40px
+;
+unicode-bidi:isolate;
+}
+
+img{
+  overflow-clip-margin:content-box;
+  overflow:clip;
+max-width:100%;
+display:block;
+height:auto;
+margin:0 auto;
+}
+
+figcaption{
+  display:block;
+  unicode-bidi:isolate;
+
+}
+
+#img-caption{
+  margin:15px 0 5px 0;
+}
+#img-div{
+  background:white;
+  padding:5px;
+  margin:0;
+
+}
+h1{
+  font-size:4rem;
+  margin-bottom:0;
+}
+
+** end of undefined **
+

@@ -1,0 +1,190 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Getting_Started" class="nav-link">Getting Started</a>
+        <a href="#Basic_Concepts" class="nav-link">Basic Concepts</a>
+        <a href="#Advanced_Topics" class="nav-link">Advanced Topics</a>
+        <a href="#Conclusion" class="nav-link">Conclusion</a>
+    </nav>
+
+    
+    <main id="main-doc">
+        
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>This is the introduction section where we provide an overview of the documentation.</p>
+            <p>Learn the basic principles behind the content discussed in this document.</p>
+            <code>console.log('Introduction code example');</code>
+            <ul>
+                <li>Overview</li>
+                <li>Purpose</li>
+                <li>Introduction to the topic</li>
+            </ul>
+        </section>
+
+        
+        <section id="Getting_Started" class="main-section">
+            <header>Getting Started</header>
+            <p>This section guides you through the initial setup and configuration.</p>
+            <p>Follow these steps to get up and running quickly.</p>
+            <code>console.log('Getting Started code example');</code>
+            <ul>
+                <li>Step 1: Setup</li>
+                <li>Step 2: Configuration</li>
+                <li>Step 3: First Run</li>
+            </ul>
+        </section>
+
+        
+        <section id="Basic_Concepts" class="main-section">
+            <header>Basic Concepts</header>
+            <p>In this section, we cover the basic concepts that form the foundation of the topic.</p>
+            <p>Understanding these concepts is essential for moving forward.</p>
+            <code>console.log('Basic Concepts code example');</code>
+            <ul>
+                <li>Concept 1</li>
+                <li>Concept 2</li>
+                <li>Concept 3</li>
+            </ul>
+        </section>
+
+        
+        <section id="Advanced_Topics" class="main-section">
+            <header>Advanced Topics</header>
+            <p>This section delves into more complex topics.</p>
+            <p>These are for advanced users who have mastered the basics.</p>
+            <code>console.log('Advanced Topics code example');</code>
+            <ul>
+                <li>Advanced Topic 1</li>
+                <li>Advanced Topic 2</li>
+                <li>Advanced Topic 3</li>
+            </ul>
+        </section>
+
+        
+        <section id="Conclusion" class="main-section">
+            <header>Conclusion</header>
+            <p>This is the concluding section where we summarize the content covered.</p>
+            <p>We hope this documentation has been helpful.</p>
+            <code>console.log('Conclusion code example');</code>
+            <ul>
+                <li>Summary</li>
+                <li>Final Thoughts</li>
+                <li>Next Steps</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+header {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 3px solid #333;
+}
+
+ul {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #333;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        font-size: 1em;
+    }
+}
+
+
+** end of undefined **
+
